@@ -17,11 +17,11 @@
   }
 
   &_fill {
-    background-color: #08b3f2;
+    background-color: #595959;
     color: #fff;
 
     &:hover {
-      background-color: #34c3f8;
+      background-color: #727171;
       cursor: pointer;
     }
   }
@@ -37,11 +37,11 @@
 
   &_fill_secondary {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAFVBMVEX///////////////////////////9nSIHRAAAABnRSTlMASUrk5udXTd49AAAAOUlEQVR42tXQsQEAIAgDQcAn+4+snRZxAK79KokrIcNBwgYdc0Migwxk8Qsd1TJWDf/KQWobqt+9G4coA99W7as5AAAAAElFTkSuQmCC) !important;
-    background-color: #64299D;
+    background-color: #595959;
     color: #fff;
 
     &:hover {
-      background-color: #752fb6;
+      background-color: #727171;
     }
     margin-right: 10px;
   }
@@ -59,7 +59,7 @@
     color: #08b3f2;
 
     &:hover {
-      background-color: #08b3f2;
+      background-color: #717272;
       color: #fff;
     }
   }
@@ -94,10 +94,10 @@
   font-family: 'Open Sans', sans-serif;
 
   &:focus {
-    border-color: #08b3f2;
+    border-color: #717272;
   }
 
   &:disabled {
-    background: #f2f2f2; 
+    background:  #f2f2f2; 
   }
 }

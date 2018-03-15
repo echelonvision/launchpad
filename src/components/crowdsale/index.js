@@ -149,23 +149,22 @@ export class Crowdsale extends React.Component {
 
     return (
       <section className="steps steps_crowdsale-page">
-        <StepNavigation activeStep={CROWDSALE_PAGE}/>
+        
         <div className="steps-content container">
           <div className="about-step">
-            <div className="step-icons step-icons_crowdsale-page"/>
-            <p className="title">Crowdsale Page</p>
-            <p className="description">Page with statistics of crowdsale. Statistics for all tiers combined on the page.
-              Please press Ctrl-D to bookmark the page.</p>
+            
+            <p className="title">Statistics of Crowdsale</p>
+            
           </div>
           <div className="total-funds">
             <div className="hidden">
               <div className="left">
                 <p className="total-funds-title">{`${ethRaised}`} ETH</p>
-                <p className="total-funds-description">Total Raised Funds</p>
+                <p className="total-funds-description">Total Raised Money</p>
               </div>
               <div className="right">
                 <p className="total-funds-title">{`${goalInETH}`} ETH</p>
-                <p className="total-funds-description">Goal</p>
+                <p className="total-funds-description">Goal To Raise</p>
               </div>
             </div>
           </div>
@@ -189,11 +188,11 @@ export class Crowdsale extends React.Component {
                 <div className="hidden">
                   <div className="left">
                     <p className="title">{`${tokensClaimed}`}</p>
-                    <p className="description">Tokens Claimed</p>
+                    <p className="description">Total Tokens Claimed</p>
                   </div>
                   <div className="right">
                     <p className="title">{`${investorsCount}`}</p>
-                    <p className="description">Contributors</p>
+                    <p className="description">Number of Contributors</p>
                   </div>
                 </div>
                 <p className="hash">{`${tokenAddr}`}</p>
@@ -207,17 +206,17 @@ export class Crowdsale extends React.Component {
                   </div>
                   <div className="right">
                     <p className="title">{`${totalSupply}`}</p>
-                    <p className="description">Total Supply</p>
+                    <p className="description">Total Token Supply</p>
                   </div>
                 </div>
                 <p className="hash">{`${crowdsaleAddr}`}</p>
-                <p className="description">Crowdsale Contract Address</p>
+                <p className="description">ICO Crowdsale Contract Address</p>
               </div>
             </div>
           </div>
         </div>
         <div className="button-container">
-          <a onClick={this.goToInvestPage} className="button button_fill">Invest</a>
+          <a onClick={this.goToInvestPage} className="button button_fill">Invest in Token</a>
         </div>
         <Loader show={this.state.loading} />
       </section>

@@ -48,10 +48,10 @@ export class Home extends Component {
         <section className="home">
           <div className="crowdsale">
             <div className="container">
-              <h1 className="title">Welcome to Token Wizard</h1>
+              <h1 className="title">This Echelon Launchpad - The Token lauch software</h1>
               <p className="description">
-              Token Wizard is a client side tool to create token and crowdsale contracts in five steps. It helps you to publish contracts on the Ethereum network, verify them in Etherscan, create a crowdsale page with stats. For participants, the wizard creates a page to invest into the campaign.
-              <br/>Smart contracts based on <a href="https://github.com/TokenMarketNet/ico">TokenMarket</a> contracts.
+              Echelon Launchpad is a software as a service for creating  token and crowdsale contracts.
+              
               </p>
               <div className="buttons">
                 <Link to='/1'><span className="button button_fill">New crowdsale</span></Link>
